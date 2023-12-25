@@ -457,6 +457,7 @@ class _CropEditorState extends State<_CropEditor> {
                   onScaleStart: widget.interactive ? _startScale : null,
                   onScaleUpdate: widget.interactive ? _updateScale : null,
                   child: Container(
+                    color: widget.baseColor,
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height,
                     child: Stack(
