@@ -65,7 +65,7 @@ class Crop extends StatelessWidget {
   final Color? maskColor;
 
   /// [Color] of the base color of the cropping editor.
-  final Color baseColor;
+  final Color? baseColor;
 
   /// Corner radius of cropping area
   final double radius;
@@ -158,7 +158,7 @@ class _CropEditor extends StatefulWidget {
   final ValueChanged<Rect>? onMoved;
   final ValueChanged<CropStatus>? onStatusChanged;
   final Color? maskColor;
-  final Color baseColor;
+  final Color? baseColor;
   final double radius;
   final CornerDotBuilder? cornerDotBuilder;
   final bool fixArea;
